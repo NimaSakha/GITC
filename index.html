@@ -14,122 +14,181 @@
     />
     <title>GITC Home</title>
   </head>
-  <body>
-    <nav>
-      <div class="left">
-        <a href="home.html"
-          ><img class="logo" src="../img/logo.png" alt="logo"
-        /></a>
-      </div>
-      <div class="right">
-        <div class="abt">
-          <a onmouseover="show(about)" href="#">ABOUT</a>
+  <body style="background-color: #586571">
+    <div class="fct">
+      <nav>
+        <div class="left">
+          <a href="home.html"
+            ><img class="logo" src="../img/logo.png" alt="logo"
+          /></a>
         </div>
+        <div class="right">
+          <div class="abt">
+            <a onclick="show(about)" onmouseover="show(about)" href="#"
+              >ABOUT</a
+            >
+          </div>
 
-        <div class="oimpct">
-          <a onmouseover="show(impact)" href="impact.html">OUR IMPACT</a>
+          <div class="oimpct">
+            <a onmouseover="show(impact)" href="impact.html">OUR IMPACT</a>
+          </div>
+          <div class="pdcst">
+            <a href="#">PODCAST</a>
+          </div>
+          <div class="jom">
+            <a onmouseover="show(mission)" href="mission.html"
+              >JOIN OUR MISSION</a
+            >
+          </div>
+          <div class="ocsn">
+            <a href="#">OCCASIONS</a>
+          </div>
+          <div class="nv">
+            <form
+              action="https://www.paypal.com/donate"
+              method="post"
+              target="_top"
+            >
+               <!-- Identify your business so that you can collect the payments. --> <input
+                type="hidden"
+                name="business"
+                value="marina@farusa.org"
+                class="btn"
+              /> <!-- Specify details about the contribution --> <input
+                type="hidden"
+                name="no_recurring"
+                value="0"
+              /> <input
+                type="hidden"
+                name="item_name"
+                value="Friends of the Park"
+              /> <input
+                type="hidden"
+                name="item_number"
+                value="Fall Cleanup Campaign"
+              /> <input
+                type="hidden"
+                name="currency_code"
+                value="USD"
+              /> <!-- Display the payment button. --> <input
+                type="image"
+                name="submit"
+                src="../img/nv.png"
+                alt="Donate"
+              /> 
+            </form>
+          </div>
         </div>
-        <div class="pdcst">
-          <a href="#">PODCAST</a>
+      </nav>
+      <div class="sub-nav">
+        <div class="about">
+          <a href="lifechangingstory.html">Life-changing Story</a>
+          <a href="boardofdirectors.html">Board of Directors</a>
+          <a href="teammemebersandexperts.html">Team Members and Experts</a>
+          <a href="partners&donors.html">Committed partners and donors</a>
+          <a href="location.html">Locations</a>
+          <a href="Faq.html">FAQ</a>
         </div>
-        <div class="jom">
-          <a onmouseover="show(mission)" href="mission.html"
-            >JOIN OUR MISSION</a
+        <div class="impact">
+          <a href="#">High-Tech Mindset Creation</a>
+          <a href="#">Positive Youth Development</a>
+          <a href="#">Women and Veterans Employment</a>
+          <a href="#">Regional Empowerment </a>
+        </div>
+        <div class="mission">
+          <a href="#">Exchange Experience </a>
+          <a href="#">Realize ideas </a>
+          <a href="#">Build Capacity</a>
+          <a href="#">Become GITC Advocator</a>
+        </div>
+      </div>
+      <!--Basic structure of slider-->
+      <div>
+        <div class="container gap2">
+          <!--Area of the images-->
+          <div class="wrapper">
+            <img src="../img/slider/1.jpg" />
+            <img src="../img/slider/2.JPG" />
+            <img src="../img/slider/4.JPG" />
+            <img src="../img/slider/5.JPG" />
+            <img src="../img/slider/6.JPG" />
+            <img src="../img/slider/7.JPG" />
+            <img src="../img/slider/8.JPG" />
+          </div>
+          <div class="sdc">
+            <div class="wrapper">
+              <img src="../img/slider/8.JPG" />
+              <img src="../img/slider/7.JPG" />
+              <img src="../img/slider/6.JPG" />
+              <img src="../img/slider/5.JPG" />
+              <img src="../img/slider/4.JPG" />
+              <img src="../img/slider/2.JPG" />
+              <img src="../img/slider/1.jpg" />
+            </div>
+          </div>
+        </div>
+        <h1 class="hero">Empowering people in Armenia</h1>
+        <div class="btn mn">
+          <form
+            action="https://www.paypal.com/donate"
+            method="post"
+            target="_top"
           >
+             <!-- Identify your business so that you can collect the payments. --> <input
+              type="hidden"
+              name="business"
+              value="marina@farusa.org"
+              class="btn"
+            /> <!-- Specify details about the contribution --> <input
+              type="hidden"
+              name="no_recurring"
+              value="0"
+            /> <input
+              type="hidden"
+              name="item_name"
+              value="Friends of the Park"
+            /> <input
+              type="hidden"
+              name="item_number"
+              value="Fall Cleanup Campaign"
+            /> <input
+              type="hidden"
+              name="currency_code"
+              value="USD"
+            /> <!-- Display the payment button. --> <input
+              type="image"
+              name="submit"
+              src="../img/btn.png"
+              alt="Donate"
+            /> 
+          </form>
         </div>
-        <div class="ocsn">
-          <a href="#">OCCASIONS</a>
+      </div>
+      <footer>
+        <div class="lf">
+          <h2>Follow Us:</h2>
+          <p>FB: <a href="">click Here</a></p>
+          <p>Instagram: <a href="">Click Here</a></p>
+          <p>Linkedin: <a href="">Click Here</a></p>
         </div>
-      </div>
-    </nav>
-    <div class="sub-nav">
-      <div class="about">
-        <a href="lifechangingstory.html">Life-changing Story</a>
-        <a href="boardofdirectors.html">Board of Directors</a>
-        <a href="teammemebersandexperts.html">Team Members and Experts</a>
-        <a href="partners&donors.html">Committed partners and donors</a>
-        <a href="location.html">Locations</a>
-        <a href="Faq.html">FAQ</a>
-      </div>
-      <div class="impact">
-        <a href="#">High-Tech Mindset Creation</a>
-        <a href="#">Positive Youth Development</a>
-        <a href="#">Women and Veterans Employment</a>
-        <a href="#">Regional Empowerment </a>
-      </div>
-      <div class="mission">
-        <a href="#">Exchange Experience </a>
-        <a href="#">Realize ideas </a>
-        <a href="#">Build Capacity</a>
-        <a href="#">Become GITC Advocator</a>
-      </div>
+        <div class="rght">
+          <h2>Vist Us:</h2>
+          <div class="cnt">
+            <p>
+              <span>Yerevan</span> Azatutyan 27 Yerevan, 0014 +374 33 031 031
+            </p>
+            <p><span>Gyumri</span> Gayi 1 Gyumri, 3101, RA +374 94 034034</p>
+          </div>
+        </div>
+        <style>
+          @media screen and (max-width: 770px) {
+            .about {
+              top: 292px;
+            }
+          }
+        </style>
+      </footer>
     </div>
-    <!--Basic structure of slider-->
-    <div>
-      <div onmouseover="hide()" class="container">
-        <!--Area of the images-->
-        <div class="wrapper">
-          <img src="../img/slider/1.jpg" />
-          <img src="../img/slider/2.JPG" />
-          <img src="../img/slider/4.JPG" />
-          <img src="../img/slider/5.JPG" />
-          <img src="../img/slider/6.JPG" />
-          <img src="../img/slider/7.JPG" />
-          <img src="../img/slider/8.JPG" />
-        </div>
-      </div>
-      <h1 class="hero">Empowering people in Armenia</h1>
-      <div class="btn">
-        <form
-          action="https://www.paypal.com/donate"
-          method="post"
-          target="_top"
-        >
-           <!-- Identify your business so that you can collect the payments. --> <input
-            type="hidden"
-            name="business"
-            value="marina@farusa.org"
-            class="btn"
-          /> <!-- Specify details about the contribution --> <input
-            type="hidden"
-            name="no_recurring"
-            value="0"
-          /> <input
-            type="hidden"
-            name="item_name"
-            value="Friends of the Park"
-          /> <input
-            type="hidden"
-            name="item_number"
-            value="Fall Cleanup Campaign"
-          /> <input
-            type="hidden"
-            name="currency_code"
-            value="USD"
-          /> <!-- Display the payment button. --> <input
-            type="image"
-            name="submit"
-            src="../img/btn.png"
-            alt="Donate"
-          /> 
-        </form>
-      </div>
-    </div>
-    <footer>
-      <div class="lf">
-        <h2>Follow Us:</h2>
-        <p>FB: <a href="">click Here</a></p>
-        <p>Instagram: <a href="">Click Here</a></p>
-        <p>Linkedin: <a href="">Click Here</a></p>
-      </div>
-      <div class="rght">
-        <h2>Vist Us:</h2>
-        <div class="cnt">
-          <p><span>Yerevan</span> Azatutyan 27 Yerevan, 0014 +374 33 031 031</p>
-          <p><span>Gyumri</span> Gayi 1 Gyumri, 3101, RA +374 94 034034</p>
-        </div>
-      </div>
-    </footer>
     <script src="../Js/nav.js"></script>
   </body>
 </html>

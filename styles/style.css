@@ -216,7 +216,7 @@ img {
   font-weight: 900;
   width: 900px;
   /* -webkit-text-stroke: 3px grey; */
-  bottom: 135px;
+  bottom: 138px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .hhh {
@@ -228,16 +228,18 @@ img {
   font-weight: bold;
 }
 .btn {
-  bottom: 5px;
+  bottom: 1%;
   left: -30px;
   border-radius: 35px;
 }
+
 .ocsn {
   display: none;
 }
 
 .tp {
-  margin-top: 83px;
+  margin-top: -20px;
+  margin-left: -20px;
 }
 footer {
   margin: auto;
@@ -317,6 +319,7 @@ footer div {
   flex-direction: column;
   align-items: center;
   width: 35%;
+  height: auto;
 }
 .name {
   margin-top: 20px;
@@ -348,6 +351,7 @@ hr {
   flex-direction: column;
   gap: 20px;
 }
+
 .tmem {
   display: flex;
   flex-direction: column;
@@ -360,27 +364,82 @@ hr {
   color: #f0a347;
   font-weight: bold;
 }
+.sdc {
+  display: none;
+}
 .tmem div {
   display: flex;
   gap: 5px;
 }
-@media screen and (max-width: 1230px) {
-  nav {
-    flex-direction: column;
-    gap: 30px;
-    height: auto;
+.hero {
+  margin: auto;
+  margin-bottom: 0;
+  width: 48%;
+  font-size: 5.5vw;
+  height: auto;
+}
+
+.nv {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 135px;
+  height: 53px;
+}
+@media screen and (max-width: 1570px) {
+  .tp {
+    display: none;
   }
-  .wrapper {
-    position: absolute;
-    top: 167px;
+  .hero {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .nv {
+    display: flex;
+  }
+  .sdc {
+    display: block;
+  }
+}
+footer {
+  position: relative;
+}
+@media screen and (max-width: 1080px) {
+  .cttr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .cntr {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media screen and (max-width: 770px) {
   .right {
     flex-direction: column;
+    gap: 30px;
+    height: auto;
   }
-  .wrapper {
-    position: absolute;
-    top: 273px;
+  nav {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+  .gap {
+    padding-top: 211px;
+  }
+  .gap2 {
+    padding-top: 292px;
+  }
+  .about {
+    height: auto;
+    top: 211px;
   }
 }
